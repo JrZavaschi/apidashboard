@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html{
+	height: 100%;
+	width: 100%;
+}
+.indicador-valor{
+	font-size: 60px;
+}
+table > tbody > tr > td{
+	font-size: 16px;
+}
+.pedido-antigo > tbody > tr > td{
+	font-size: 30px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+	margin-bottom: 0;
+	background-color: #EFEFEF;
+	width: 100%;
+}
+.footer > div > p {
+	line-height: 10px;
+	text-align: center;
+	padding: 0.7em;
+	font-size: 10px;
+}
+
+@media(max-width:728px){
+	
+}
